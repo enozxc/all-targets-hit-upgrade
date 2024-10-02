@@ -1,0 +1,10 @@
+Write a function all_targets_hit_upgrade that takes the results of shots at each target.
+
+The results are a list, where each element is a list of boolean values corresponding to the results of
+shots at one of the targets. If the value is True, it means that the target was hit by that shot; if it's False, it means it was not.
+Therefore, if there is at least one True value in the list, the target was hit; if all values are False, it was not.
+
+The function all_targets_hit_upgrade returns True if all targets were hit.
+
+The function should contain only the return statement. Use list comprehension.
+Additionally, it is very convenient to use the functions any and all to solve this problem.
